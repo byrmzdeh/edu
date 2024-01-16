@@ -1,0 +1,22 @@
+.basket {
+    margin: 70px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    table {
+        width: 80%;
+        margin-top: 50px;
+
+        td {
+            text-align: center;
+            .remove{
+                color: white;
+                padding: 10px;
+                background-color: rgb(233, 37, 37);
+                cursor: pointer;
+                border: none;
+            }
+        }
+    }
+}
